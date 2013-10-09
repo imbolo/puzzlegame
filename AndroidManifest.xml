@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nine.bolo.puzzle"
+    android:versionCode="8"
+    android:versionName="1.2.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="CNZZ_APP_KEY"
+            android:value="cnzz.a_5826a0d8edcc236c1ee97d50" >
+        </meta-data>
+        <meta-data
+            android:name="CNZZ_CHANNEL_ID"
+            android:value="Meizu" >
+        </meta-data>
+<!--         <meta-data -->
+<!--             android:name="AdView_CHANNEL" -->
+<!--             android:value="GOOGLEMARKET" > -->
+<!--         </meta-data> -->
+        <!-- <meta-data -->
+        <!-- android:name="YOUMI_CHANNEL" -->
+        <!-- android:value="10020" > -->
+        <!-- </meta-data> -->
+  
+        <meta-data
+            android:name="BaiduMobAd_APP_ID"
+            android:value="d94a9dc8" />
+        <meta-data
+            android:name="BaiduMobAd_APP_SEC"
+            android:value="d94a9dc8_e498eab7" />
+
+        <service android:name="com.kyview.DownloadService" />
+
+        <activity android:name="com.kyview.AdviewWebView" />
+
+        <!-- AdView SDK for Baidu -->
+        <activity
+            android:name="com.baidu.mobads.AppActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+
+        <!-- AdView SDK for Domob -->
+        <activity
+            android:name="cn.domob.android.ads.DomobActivity"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- 声明Admob的Activity -->
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <!-- AdView SDK for Youmi -->
+        <activity
+            android:name="net.youmi.android.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+
+        <receiver android:name="net.youmi.android.YoumiReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_INSTALL" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="net.youmi.android.appoffers.YoumiOffersActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+
+        <activity
+            android:name="nine.bolo.puzzle.StartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nine.bolo.puzzle.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="nine.bolo.puzzle.RankActivity"
+            android:label="@string/title_activity_rank_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="nine.bolo.puzzle.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RankActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+<!--         <Button -->
+<!--             android:id="@+id/btnclear" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="@string/clearlocaldata" /> -->
+
+        <Spinner
+            android:id="@+id/lvspin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!-- <RadioGroup -->
+        <!-- android:id="@+id/rlevel" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" > -->
+
+
+        <!-- <RadioButton -->
+        <!-- android:id="@+id/r33" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:checked="true" -->
+        <!-- android:text="3X3" /> -->
+
+
+        <!-- <RadioButton -->
+        <!-- android:id="@+id/r44" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:text="4X4" /> -->
+        <!-- </RadioGroup> -->
+
+        <Spinner
+            android:id="@+id/whspin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+       <Spinner
+            android:id="@+id/spindate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- <RadioGroup -->
+        <!-- android:id="@+id/rwhere" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" > -->
+
+
+        <!-- <RadioButton -->
+        <!-- android:id="@+id/rlocal" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:checked="true" -->
+        <!-- android:text="@string/strlocal" /> -->
+
+
+        <!-- <RadioButton -->
+        <!-- android:id="@+id/rworld" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:text="@string/strworld" /> -->
+        <!-- </RadioGroup> -->
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ranklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dip"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+         >
+    </ListView>
+
+</LinearLayout>

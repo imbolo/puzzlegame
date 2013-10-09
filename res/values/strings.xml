@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="serverurl">1.imbolo.sinaapp.com</string>
+    <string name="app_name">Puzzle Challenge</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_level">Level</string>
+    <string name="menu_supportus">Support us</string>
+    <string name="menu_getgold">Get Gold</string>
+    <string name="moved">Moved:</string>
+    <string name="time">Time:</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="todaysaward">"Today's award"</string>
+    <string name="alreadyhasaward">Award has been claimed</string>
+    <string name="goon">Go on</string>
+    <string name="replay">Replay</string>
+    <string name="timeused">Time:</string>
+    <string name="moveused">Move:</string>
+    <string name="chancesleft">Chances left: </string>
+    <string name="nochances">No Chances Left</string>
+    <string name="share">Share</string>
+    <string name="sharecontent1">I was playiny Puzzle Challenge.</string>
+    <string name="sharecontent2"> second used, how fast can you? Have a try~ \nhttps://play.google.com/store/apps/details?id=nine.bolo.puzzle</string>
+    <string name="defaultname">Name</string>
+    <string name="nameisnull">Leave your name please.</string>
+    <string name="saverank">Save.Rank</string>
+    <string name="save">Save</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="setwallsuc">Set successfully</string>
+    <string name="setwallfail">Set failed, please try again</string>
+    <string name="levelchoose">Choose Level</string>
+    <string name="levelstr">Level: </string>
+    <string name="currentpoint">Gold: </string>
+    <string name="pointname">G</string>
+    <string name="menusetting">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_rank">RankActivity</string>
+    <string name="strlocal">Local</string>
+    <string name="strworld">World</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="clearlocaldata">Clear</string>
+    <string name="title_activity_rank_list">"Today's Rank List"</string>
+    <string name="warmingclear">The record will be deleted,\nand it can not restore.\nAre you sure to do that?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="temppicname">"/sdcard/pic.jpg"</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="selectpic">Select a picture from you gallery.</string>
+    <string name="uploading">"Uploading..."</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connectfailed">"Connected failed..."</string>
+    <string name="localaward">2</string>
+    <string name="worldaward">10</string>
+    <string name="confirmsetting">Set this picuture as wallpaper?</string>
+    <string name="nogold">Gold is no enough.\nGet more gold now?</string>
+    <string name="fromgallery">Gallery</string>
+    <string name="numon">Show Num</string>
+    <string name="numoff">Hide Num</string>
+    
+    <string name="thanks">Thanks for playing this game.\n\nIf you like it, please do me a favor by clicking the ad which you are interested in.\n\nAuthor: imBolo\nE-mail: jim0203@gmail.com</string>
+<!--     <string name="waitforpoint">Please wait for a moment\nwhile the point system is prepared.</string> -->
+    
+    <string name="pleasereply">Make sure to exit or give me reviews before exiting?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="review">Review</string>
+    
+     <string name="nomarket">There is not any market on your phone, but thanks anyway:)</string>
+    
+    <string-array name="lv_array">  
+        <item>3X3</item>  
+        <item>4X4</item>  
+        <item>5X5</item>  
+        
+        </string-array> 
+        <string-array name="wh_array">  
+        <item>Local</item>  
+        <item>World</item>  
+        </string-array>  
+        
+
+        <string-array name="arr_date">  
+        <item>Today</item>  
+        <item>Yesterday</item>
+        <item>2 days ago</item>
+        <item>3 days ago</item>
+        <item>4 days ago</item>
+        <item>5 days ago</item>
+        <item>6 days ago</item>  
+        </string-array>  
+
+</resources>
